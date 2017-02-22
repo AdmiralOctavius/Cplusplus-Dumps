@@ -1,0 +1,15 @@
+Last Name:Miller
+First Name: Andrew
+Current Salary: 702345
+Percent Increase: 0.050000
+
+Last Name:Allison
+First Name: Mary
+Current Salary: 60543.650000
+Percent Increase: 0.060000
+
+Last Name:Cartwright
+First Name: Pearline
+Current Salary: 120004.980000
+Percent Increase: 0.070000
+
