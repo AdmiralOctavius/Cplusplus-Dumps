@@ -13,6 +13,7 @@ Purpose of file: File input program that calculates new employee pay. Also outpu
 #include<string>
 #include <iomanip>
 #include <iostream>
+#include <cstdlib>
 using namespace std;
 
 int main()
@@ -51,6 +52,7 @@ int main()
 
 	//Set precision
 	cout << setprecision(2);
+	project4Out << setprecision(2);
 
 	//Begin while loop
 	//While loop pulls data from file and displays to console, also outputs to an output file
@@ -79,7 +81,7 @@ int main()
 		project4Out.open("project4Out.txt", ios::app);
 		project4Out << "Last Name:" << LastName << endl;
 		project4Out << "First Name: " << FirstName << endl;
-		project4Out << "Current Salary: " << currentSalary << endl;
+		project4Out << "Current Salary: " << fixed << currentSalary << endl;
 		project4Out << "Percent Increase: " << fixed << percentIncrease << endl << endl;
 
 		//Closes file
