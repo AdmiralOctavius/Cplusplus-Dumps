@@ -1,0 +1,15 @@
+//Create array of 9 elements (0-8)
+//Set somewhere 0 = nothing, 1 = x, 2 = y
+//Create While loop for play
+  //Display board
+    //Take in P1 input
+    //for loop check position on board
+    //check if not blank
+    //If blank then put P1 icon
+    //If not blank break and goto start of player loop
+    //Do check for if player wins
+  //Display board
+  //Take in p2 intput
+  //repeat input code
+  //Display board
+  //Repeat
